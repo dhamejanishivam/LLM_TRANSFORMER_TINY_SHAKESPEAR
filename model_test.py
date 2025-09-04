@@ -808,7 +808,7 @@ def chat_with_model(user_input_raw,max_new_tokens=100):
     max_new_tokens=new
   user_input = encode(user_input_raw)
   user_input = torch.tensor(user_input, dtype=torch.long).unsqueeze(0).to(device)
-  output = model.generate(idx=user_input,max_new_tokens=max_new_tokens)
+  output = model.generate(idx=user_input,max_new_tokens=50)
   output = output[0].tolist()
   ans = decode(output)
   ans=ans.replace(user_input_raw,'')
@@ -843,4 +843,3 @@ def run_app():
 
 if __name__ == '__main__':
     Thread(target=run_app).start()
-    
