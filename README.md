@@ -58,6 +58,7 @@ After training, the model generates text that resembles Shakespearean dialogue. 
 ---
 
 ## Repository Structure
+```
 .
 ├── input.txt # Tiny Shakespeare dataset
 ├── model_dir/ # Saved model checkpoints
@@ -65,7 +66,7 @@ After training, the model generates text that resembles Shakespearean dialogue. 
 │ └── texter.pth
 ├── model_test.py # Script to load model and generate samples
 └── train.py # Full model + training loop implementation
-
+```
 
 
 ---
