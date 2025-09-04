@@ -1,5 +1,5 @@
 # LLM_TRANSFORMER_TINY_SHAKESPEAR
-<h5 style='color:gray;'>10.79M Param Model<h5>
+<h5 style='color:gray;'>10.79M Parameters Model<h5>
 
 This project is a **character-level language model** built completely from scratch using PyTorch. I implemented every part of the model architecture myself, without relying on pre-built transformer libraries. The goal was to reproduce the foundations of modern large language models on a small dataset and demonstrate a deep understanding of how attention mechanisms and transformers actually work under the hood.
 
